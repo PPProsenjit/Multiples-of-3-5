@@ -1,0 +1,7 @@
+import numpy as np
+x = np.arange(1, 100)
+#print array range 100 and who are multiply by 3 or 5
+
+output = x[(x%3==0) & (x%5==0)]
+
+print(output)
